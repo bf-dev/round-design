@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Button } from "round-design"
 
-import { ExampleComponent } from 'round-design'
-import 'round-design/dist/index.css'
-
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+function App() {
+  return (
+    <div className="App">
+      <Button>Hello</Button>
+    </div>
+  );
 }
 
-export default App
+export default App;
